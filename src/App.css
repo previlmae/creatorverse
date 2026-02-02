@@ -1,0 +1,31 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background: var(--card-background-color);
+  border-top: 1px solid var(--muted-border-color);
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+  color: var(--muted-color);
+}
+
+footer strong {
+  color: var(--primary);
+}
+
+.container {
+  max-width: 1200px;
+}
